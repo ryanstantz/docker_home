@@ -1,7 +1,6 @@
 version: '2'
 services:
   db:
-    build: .
     image: 'postgres:latest'
     # environment:
       # POSTGRES_USER: 'simple_api'
